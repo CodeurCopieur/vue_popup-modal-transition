@@ -1,4 +1,11 @@
-# vue_popup-modal-transition
+# vue popup modal transition
+```
+Créer une Popup Modal VueJS à l'aide de Vue Transitions
+```
+## Langage
+* HTML
+* SCSS
+* VUE JS
 
 ## Project setup
 ```
@@ -9,16 +16,3 @@ yarn install
 ```
 yarn serve
 ```
-
-### Compiles and minifies for production
-```
-yarn build
-```
-
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
