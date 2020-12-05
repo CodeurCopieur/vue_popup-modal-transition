@@ -3,7 +3,7 @@
     <button class="btn-modal" @click="showModal = !showModal">Show Modal</button>
 
     <transition name="fade" appear>
-      <Modal v-if="showModal" @click="showModal = !showModal" />
+      <Modal v-if="showModal" @close="showModal = !showModal" />
     </transition>
     
   </div>
@@ -65,6 +65,16 @@ export default {
    &:hover {
      box-shadow: 6px 6px rgba(0, 0, 0, .6);
    }
+ }
+
+ .fade-enter-active,
+ .fade-leave-active {
+   transition: opacity .5s;
+ }
+
+ .fade-enter,
+ .fade-leave-to {
+   opacity: 0;
  }
 }
 
